@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 body {
     background-color: rgb(32, 32, 32);
-    background-image: url("img.jpg");
     /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
     color: rgb(230, 230, 230);
     text-align: center;
-    
     font-size: 0.7em;
 }
+
 .title {
     line-height: 1em;
     margin-bottom: 0;
@@ -22,30 +22,34 @@ body {
     margin-top: 3rem;
     font-family: 'Fredericka the Great', cursive;
 }
+
 h2 {
     font-size: 1.3em;
     font-weight: bold;
     padding: 0;
     margin: 0;
-
 }
+
 h3 {
     font-size: 1.1em;
     padding: 0;
     margin: 10px 0 2px 0;
 }
+
 table {
     margin: 2% auto;
     border-collapse: collapse;
     margin-top: 3rem;
     font-family: 'Fredericka the Great', cursive;
 }
+
 #table_game {
     position: relative;
     font-size: 120px;
     margin: 3rem auto;
     border-collapse: collapse;
 }
+
 .td_game {
     border: 4px solid rgb(230, 230, 230);
     width: 90px;
@@ -54,6 +58,7 @@ table {
     vertical-align: middle;
     text-align: center;
 }
+
 .fixed {
     width: 90px;
     height: 90px;
@@ -62,16 +67,19 @@ table {
     overflow: hidden;
     cursor: pointer;
 }
+
 .td_list {
     text-align: center;
     font-size: 1.3em;
     font-weight: bold;
 }
+
 .th_list {
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
 }
+
 #restart {
     font-size: 3em;
     width: 1em;
@@ -80,6 +88,7 @@ table {
     margin: 0 auto;
     overflow: hidden;
 }
+
 .x {
     color: darksalmon;
     position: relative;
@@ -87,6 +96,7 @@ table {
     font-size: 1.2em;
     cursor: default;
 }
+
 .o {
     color: aquamarine;
     position: relative;
@@ -95,7 +105,9 @@ table {
     cursor: default;
 }
 
+
 /* modal background */
+
 .modal {
     display: none;
     position: fixed;
@@ -104,13 +116,17 @@ table {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /* enable scroll if needed */
-    background-color: black; /* fallback color */
+    overflow: auto;
+    /* enable scroll if needed */
+    background-color: black;
+    /* fallback color */
     background-color: rgba(0, 0, 0, 0.6);
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* modal content */
+
 .modal-content {
     background-color: rgb(240, 240, 240);
     color: rgb(32, 32, 32);
@@ -124,12 +140,15 @@ table {
     width: 380px;
     max-width: 80%;
 }
+
 .modal-content p {
     margin: 0;
     padding: 0;
 }
 
+
 /* close button for modal dialog */
+
 .close {
     color: rgb(170, 170, 170);
     float: right;
@@ -139,6 +158,7 @@ table {
     font-size: 34px;
     font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
     color: black;
@@ -149,8 +169,8 @@ table {
 .win-color {
     background-color: rgb(240, 240, 240);
 }
-#okbtn
-{
+
+#okbtn {
     font-size: 1.2rem;
     border: none;
     background-color: #000000;

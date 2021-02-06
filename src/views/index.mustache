@@ -3,12 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-tac-toe</title>
-    <link rel="stylesheet" href="master.css">
-    <script src="script.js">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js">
     </script>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
-  <body onload="initialize()">
+  <body onload="initialize()" style="background-image: url('images/img.jpg');">
     <p class="title">Tic-Tac-Toe</p>
     <table id="table_game">
       <tr><td class="td_game"><div id="cell0" onclick="cellClicked(this.id)" class="fixed"></div></td><td class="td_game"><div id="cell1" onclick="cellClicked(this.id)" class="fixed"></div></td><td class="td_game"><div id="cell2" onclick="cellClicked(this.id)" class="fixed"></div></td></tr>
