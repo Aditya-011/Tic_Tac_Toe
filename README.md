@@ -1,12 +1,43 @@
-# Tic_Tac_Toe
-Tic Tac Toe game created using Vanilla Js and minimax algorithm  and hosted using Turbo 360 environment.
 
+# Tic-Tac-Toe
 
+Tic Tac Toe game created using Vanilla Js and minimax algorithm.
+## Demo
 
-- For Live demo, [click here:](https://tic-tac-toe-ipzrsy.turbo360-vertex.com/)
+https://tic-tac-toe-ipzrsy.turbo360-vertex.com
 
-- <img src="src/public/images/tic-tac.png">
+  
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm install
 ```
-For Screens smaller than 700px
+```bash
+  turbo devserver
 ```
-- <img src="src/public/images/min-tic-tac.png">
+
+## Features
+
+- Choose difficulty level
+- Choose 'X' or 'O'
+- Score Management
+- Minimax Algorithm
+- Simple UI
+
+  
+## Screenshots
+
+![App Screenshot](src/public/images/tic-tac.png)
+
+For screens smaller than 700px
+
+![App Screenshot](src/public/images/min-tic-tac.png)
+
+  
+## Support
+
+For support, email adihgr18@gmail.com.
+
+  
